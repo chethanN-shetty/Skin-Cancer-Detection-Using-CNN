@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # ============================
 # 1️⃣  CONFIGURATION
 # ============================
-DATASET_DIR = r"C:\Users\Sudarshan\Downloads\archive (1)\augmented_images"  # path to your augmented dataset
+DATASET_DIR = r"................"  # path to your augmented dataset change with your path 
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 20
@@ -107,3 +107,4 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+
