@@ -8,9 +8,9 @@ from tqdm import tqdm
 # 1️⃣  CONFIGURATION
 # ============================
 # Set your paths
-DATA_DIR = r"C:\Users\Sudarshan\Downloads\archive (1)\ISIC_2019_Training_Input\ISIC_2019_Training_Input"  # path where original images are stored
-CSV_PATH = r"C:\Users\Sudarshan\Downloads\archive (1)\ISIC_2019_Training_GroundTruth.csv"  # path to your CSV file
-OUTPUT_DIR = r"C:\Users\Sudarshan\Downloads\archive (1)\augmented_images"  # path where augmented images will be saved
+DATA_DIR = r"........................"  # path where original images are stored
+CSV_PATH = r"...................................."  # path to your CSV file
+OUTPUT_DIR = r".............................................."  # path where augmented images will be saved
 
 # How many augmented images per original image
 AUG_PER_IMAGE = 5
@@ -92,3 +92,4 @@ for _, row in tqdm(df.iterrows(), total=len(df), desc="Augmenting images"):
 
 print("\n🎉 Augmentation complete!")
 print(f"➡️ Augmented images saved in: {OUTPUT_DIR}")
+
