@@ -9,8 +9,8 @@ import os
 # ============================
 # 1️⃣  CONFIGURATION
 # ============================
-MODEL_PATH = r"C:\Users\Sudarshan\PycharmProjects\SkinCancerdatasetISIC2020\.venv\skin_cancer_cnn_model.h5"  # your saved model path
-IMAGE_PATH = r"C:\Users\Sudarshan\Desktop\SkinCancerDetectionDataset\archive (1)\ISIC_2019_Training_Input\ISIC_2019_Training_Input\ISIC_0000075.jpg"  # test image
+MODEL_PATH = r"........................."  # your saved model path
+IMAGE_PATH = r"......................................"  # test image
 IMG_SIZE = (224, 224)  # same as training
 
 # ============================
@@ -56,4 +56,5 @@ plt.figure(figsize=(5, 5))
 plt.imshow(img_display)
 plt.axis('off')
 plt.title(f"Prediction: {predicted_label}\nConfidence: {confidence:.2f}%", fontsize=12, color='blue')
+
 plt.show()
