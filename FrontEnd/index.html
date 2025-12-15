@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skin Cancer Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated Floating Icons Background -->
+  <div class="animated-bg">
+    <img src="https://cdn-icons-png.flaticon.com/512/3622/3622889.png" class="float-icon" style="top:10%; left:15%;" />
+    <img src="https://cdn-icons-png.flaticon.com/512/706/706164.png" class="float-icon" style="top:40%; left:75%;" />
+    <img src="https://cdn-icons-png.flaticon.com/512/706/706195.png" class="float-icon" style="top:70%; left:25%;" />
+    <img src="https://cdn-icons-png.flaticon.com/512/706/706175.png" class="float-icon" style="top:20%; left:60%;" />
+    <img src="https://cdn-icons-png.flaticon.com/512/9693/9693915.png" class="float-icon" style="top:85%; left:80%;" />
+  </div>
+
+  <header>
+    <h1>🌸 Skin Cancer Detection</h1>
+    <p>AI-powered skin care awareness in a cozy, friendly way 💕</p>
+    <a href="#detect" class="scroll-btn">Start Detection ↓</a>
+  </header>
+
+  <section id="detect" class="section detect-section fade-in">
+    <h2>🧴 Upload Image</h2>
+    <p>Upload your skin image — our soft AI will analyze it ✨</p>
+
+    <div class="upload-container">
+      <label for="fileInput" class="upload-label">📸 Choose Image</label>
+      <input type="file" id="fileInput" accept="image/*" />
+      <img id="preview" src="" alt="Preview" />
+    </div>
+
+    <button id="analyzeBtn">Analyze Image 🔍</button>
+
+    <div class="progress-container hidden">
+      <div class="progress-bar"></div>
+      <p class="progress-text">Analyzing...</p>
+    </div>
+
+    <div id="resultBox" class="hidden">
+      <h3>✨ Result</h3>
+      <p id="resultText">Upload an image to begin 💫</p>
+    </div>
+  </section>
+
+  <section class="section about-section fade-in">
+    <h2>🌼 About This Project</h2>
+    <p>
+      This pastel-themed AI web app combines gentle animations and health awareness.  
+      It encourages early detection in a soft, comforting environment.
+    </p>
+  </section>
+
+  <section class="section how-section fade-in">
+    <h2>💡 How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/9275/9275538.png" alt="upload icon" />
+        <h3>1️⃣ Upload</h3>
+        <p>Choose a clear skin photo 💖</p>
+      </div>
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/8700/8700452.png" alt="analyze icon" />
+        <h3>2️⃣ Analyze</h3>
+        <p>AI checks the image with love 🌸</p>
+      </div>
+      <div class="step">
+        <img src="https://cdn-icons-png.flaticon.com/512/6997/6997685.png" alt="result icon" />
+        <h3>3️⃣ Result</h3>
+        <p>See soft health feedback instantly 💬</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section fade-in">
+    <h2>📬 Contact Us</h2>
+    <p>We’d love to collaborate or hear from you!</p>
+    <a href="mailto:skinhealth@example.com" class="email-link">skinhealth@example.com</a>
+  </section>
+
+  <footer>
+    <p>Made with 💕 for awareness | © 2025 Skin Health AI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
